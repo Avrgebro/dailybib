@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class PlanPage extends StatefulWidget {
+class ThemeSelection extends StatefulWidget {
   @override
-  _PlanPageState createState() => _PlanPageState();
+  _ThemeSelectionState createState() => _ThemeSelectionState();
 }
 
-class _PlanPageState extends State<PlanPage> {
+class _ThemeSelectionState extends State<ThemeSelection> {
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -14,17 +14,11 @@ class _PlanPageState extends State<PlanPage> {
         child: Column(
           children: [
             Container(
-              child: Text(
-                'Planea',
-                style: TextStyle(
-                  fontSize: 32
-                ),
-              )
+              child: Icon(Icons.arrow_back_ios)
             )
           ]
         ),
       ),
     );
   }
-  
 }
