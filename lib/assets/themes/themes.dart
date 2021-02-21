@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 final darkTheme = ThemeData(
   primarySwatch: Colors.grey,
-  primaryColor: Colors.black,
+  primaryColor: const Color(0xFFED4B40),
   brightness: Brightness.dark,
   backgroundColor: const Color(0xFF212121),
   accentColor: const Color(0xFFED4B40),
@@ -14,7 +14,7 @@ final darkTheme = ThemeData(
 
 final lightTheme = ThemeData(
   primarySwatch: Colors.grey,
-  primaryColor: Colors.white,
+  primaryColor: const Color(0xFF00C9DB),
   brightness: Brightness.light,
   backgroundColor: const Color(0xFFE5E5E5),
   accentColor: const Color(0xFF00C9DB),
@@ -25,7 +25,7 @@ final lightTheme = ThemeData(
 
 final pinkTheme = ThemeData(
   primarySwatch: Colors.grey,
-  primaryColor: Colors.white,
+  primaryColor: const Color(0xFFEB8AB7),
   brightness: Brightness.light,
   backgroundColor: const Color(0xFFE5E5E5),
   accentColor: const Color(0xFFEB8AB7),

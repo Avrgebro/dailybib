@@ -8,22 +8,29 @@ class ReadPage extends StatefulWidget {
 class _ReadPageState extends State<ReadPage> {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 24.0),
-      child: Container(
-        child: Column(
-          children: [
-            Container(
-              child: Text(
-                'Lectura',
-                style: TextStyle(
-                  fontSize: 32
-                ),
-              )
-            )
-          ]
-        ),
+    return Container(
+      
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Container(
+            padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 24.0),
+            child: Text(
+              'Lectura',
+              style: TextStyle(
+                fontSize: 32
+              ),
+            ),
+            decoration: BoxDecoration(
+              border: Border(
+                bottom: BorderSide(width: 1.0, color: Colors.grey)
+              ),
+              
+            ),
+          )
+        ],
       ),
+      
     );
   }
 }
