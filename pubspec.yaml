@@ -30,6 +30,8 @@ dependencies:
       url: https://github.com/Flutter-Dart-Open-Source/plugins.git
       path: packages/shared_preferences/shared_preferences
       ref: update_prefs
+  firebase_core: "^0.7.0"
+  cloud_firestore: "^0.16.0"
 
 
   # The following adds the Cupertino Icons font to your application.
